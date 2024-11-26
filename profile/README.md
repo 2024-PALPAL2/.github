@@ -53,3 +53,47 @@ IoT 프로젝트 3조 저장소. 팔팔이
     사용 언어 : Python
 
     사용 모듈 : Serial, Pyqt5,, requests, threading
+
+
+
+## System Requirements
+| **주 기능**            | **상세 기능**                     | **설명**                                                                 | **개발 우선 순위** |
+|-------------------------|-----------------------------------|--------------------------------------------------------------------------|--------------------|
+| 구동 기능              | 컨베이어 벨트 단방향 구동 기능    | 컨베이어 벨트 동작                                                      | 1                  |
+|                       | 구동 속도 조절 기능              | 컨베이어 벨트 구동 속도를 사용자 입력으로 제어                          | 3                  |
+| 택배 구분 기능        | 택배 주소지 기준에 따라 분류함    | 택배 주소지 기준에 따라 분류                                             | 1                  |
+| 택배 분류 기능        | 물리적으로 다른 분류함으로 구분함 | 물리적으로 다른 분류함으로 구분                                          | 1                  |
+| 정지 기능              | 컨베이어 벨트 정지               | 컨베이어 벨트 동작 정지                                                 | 1                  |
+| 모니터링 기능          | 컨베이어 시스템 모니터링 기능     | 컨베이어 동작 횟수, 시간, 시작/종료 시각, 처리 갯수 등의 통계 시각화 및 실시간 화면 표시 | 1                  |
+| 원격 제어 기능         | 컨베이어 벨트 원격 제어 기능      | 원격으로 동작/정지 및 속도 제어                                          | 1                  |
+| 자동녹화기능           | 컨베이어 벨트 정지/동작 시 녹화   | 컨베이어 벨트 정지/동작 시 자동 녹화                                    | 2                  |
+| 상태 표시 기능         | 시스템 상태 표시 기능            | 시스템의 정지/동작/부팅 상태를 표시                                      | 2                  |
+| 위험요소 감지 기능     | 위험 요소 감지 기능              | 컨베이어 근처 위험 요소(사람 등)를 감지                                  | 2                  |
+| 택배 경로 추적        | 택배 경로 추적 기능              | 택배의 이동 경로 추적 및 확인                                           | 4                  |
+
+
+## System Scenario
+![Screenshot from 2024-11-22 17-07-20](https://github.com/user-attachments/assets/a8b33987-5d5c-4605-a793-2a25f352bec3)
+
+
+## Design
+https://www.figma.com/design/2HPsWyqSAlxDfTQgQZTUDu/Team3?node-id=0-1&t=DpAPZBAEqeQ5pgbb-1
+
+
+
+## 결과
+
+#### 바코드 기능 시연
+
+[![YouTube Video](https://img.youtube.com/vi/reqIpaoSUK0/0.jpg)](https://www.youtube.com/watch?v=reqIpaoSUK0)
+
+
+#### 분류기 기능 시연
+[![YouTube Video](https://img.youtube.com/vi/Vg6thNHTn-g/0.jpg)](https://youtu.be/Vg6thNHTn-g)
+
+
+#### 전체 기능 시연
+[![YouTube Video](https://img.youtube.com/vi/iGdT6jQyY-w/0.jpg)](https://youtu.be/iGdT6jQyY-w)
+
+
+
