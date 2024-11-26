@@ -77,9 +77,7 @@ IoT 프로젝트 3조 저장소. 팔팔이
 
 
 ## Design
-https://www.figma.com/design/2HPsWyqSAlxDfTQgQZTUDu/Team3?node-id=0-1&t=DpAPZBAEqeQ5pgbb-1
-
-
+[UI 설계](https://www.figma.com/design/2HPsWyqSAlxDfTQgQZTUDu/Team3?node-id=0-1&t=DpAPZBAEqeQ5pgbb-1)
 
 ## 결과
 
